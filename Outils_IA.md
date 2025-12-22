@@ -62,7 +62,7 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 ---
 
-> Guide complet pour comprendre, installer et utiliser OpenVAS (Greenbone Vulnerability Management) vers Debian 12 & Debian 13.
+> Guide complet expliquant, étape par étape, le fonctionnement, l’installation et l’utilisation de solutions d’intelligence artificielle sur Debian 12 et Debian 13.
 
 ---
 
