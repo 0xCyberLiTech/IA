@@ -80,8 +80,6 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 <div align="center">
 
-## 🧠 IA Pédagogue – Sommaire
-
 | **Ressource**                  | **Description**                                                         | **Accès rapide**                                                                                                                    |
 |--------------------------------|-------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | **Introduction à l’IA pédagogique**   | Présentation, concepts clés et enjeux de l’IA pour l’apprentissage      | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)]()                         |
