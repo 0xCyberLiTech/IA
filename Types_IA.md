@@ -77,7 +77,48 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 </div>
 
 ---
+## 🧩 Les différents types d’intelligence artificielle (IA)
 
+L’intelligence artificielle se décline en plusieurs types, selon ses capacités, ses usages et son niveau d'autonomie. Voici les principales distinctions à connaître :
+
+---
+
+### 1️⃣ IA faiblement spécialisée (*IA faible*, ou Narrow AI)
+
+Cette IA est conçue pour réaliser une tâche précise (jouer aux échecs, recommander des vidéos, détecter des fraudes, etc.).  
+Elle n’a aucune conscience, ni compréhension globale. C’est le type d’IA le plus répandu aujourd’hui.
+
+**Exemples :**
+- Assistants vocaux (Siri, Alexa…)
+- Diagnostics médicaux automatisés
+- Reconnaissance faciale
+
+---
+
+### 2️⃣ IA généraliste (*IA forte*, ou General AI)
+
+L’IA forte serait capable de comprendre, d’apprendre et d’agir de façon polyvalente, comme un humain : raisonner, improviser, s’adapter à des contextes variés.  
+Cette intelligence n’existe pas encore dans la réalité, mais reste un objectif de recherche.
+
+---
+
+### 3️⃣ IA super-intelligente
+
+Un concept encore théorique, où l’IA dépasserait largement les capacités intellectuelles humaines dans tous les domaines (créativité, prise de décisions, émotions simulées, etc.). L’IA super-intelligente est un sujet de débats éthiques et philosophiques.
+
+---
+
+## ⚙️ Types selon le fonctionnement technique
+
+- **IA symbolique** : basée sur des règles, de la logique et des symboles explicites (utilisée pour l’IA “classique”, ou “GOFAI”).
+- **Machine Learning** : apprend à partir de données (ex : classification, régression).
+- **Deep Learning** : utilise des réseaux de neurones profonds, efficace sur des tâches très complexes (vision, langage...).
+- **Traitement du langage naturel (NLP)** : analyse et génère le langage humain.
+- **IA hybride** : combine plusieurs approches pour des systèmes plus puissants.
+
+---
+
+> **À retenir** : La plupart des IA utilisées aujourd’hui sont “faibles”, mais elles sont déjà capables de surprendre par leur performance ! Les IA “fortes” ou “super-intelligentes” relèvent du domaine de la recherche et de la science-fiction… pour le moment.
 ---
 
 <div align="center">
