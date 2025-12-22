@@ -188,6 +188,7 @@ Voici un lien exploitable pour Mistral 3 (formats .gguf, adapté à une utilisat
 
 - **Page officielle HuggingFace des modèles Mistral 3 (GGUF) :**  
   👉 [TheBloke/Mistral sur HuggingFace](https://huggingface.co/mistralai/)
+  👉 [mistralai/Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3)
 
 *Astuce : Tu peux remplacer le nom du fichier pour choisir une autre version/quantification si besoin. Le téléchargement peut se faire en cliquant ou via `wget` :*
 ```bash
