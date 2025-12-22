@@ -186,10 +186,7 @@ Les modèles Mistral sont disponibles publiquement sur HuggingFace.
 Voici un lien exploitable pour Mistral 3 (formats .gguf, adapté à une utilisation locale) :
 
 - **Page officielle HuggingFace des modèles Mistral 3 (GGUF) :**  
-  👉 [TheBloke/Mistral-7B-Instruct-v0.3-GGUF sur HuggingFace](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.3-GGUF)
-
-- **Exemple de lien de téléchargement direct (.Q4_K_M, version quantifiée, bon équilibre RAM/performance) :**  
-  👉 [Télécharger mistral-7b-instruct-v0.3.Q4_K_M.gguf](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.3-GGUF/resolve/main/mistral-7b-instruct-v0.3.Q4_K_M.gguf?download=true)
+  👉 [TheBloke/Mistral sur HuggingFace](https://huggingface.co/mistralai/)
 
 *Astuce : Tu peux remplacer le nom du fichier pour choisir une autre version/quantification si besoin. Le téléchargement peut se faire en cliquant ou via `wget` :*
 ```bash
