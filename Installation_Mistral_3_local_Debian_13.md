@@ -178,10 +178,55 @@ print(result)
 - [LM Studio - Interface locale](https://lmstudio.ai/)
 
 ---
+## 🎯 Télécharger Mistral 3 – Liens & Versions
+
+### 📥 Lien direct pour récupérer un modèle Mistral 3
+
+Les modèles Mistral sont disponibles publiquement sur HuggingFace.  
+Voici un lien exploitable pour Mistral 3 (formats .gguf, adapté à une utilisation locale) :
+
+- **Page officielle HuggingFace des modèles Mistral 3 (GGUF) :**  
+  👉 [TheBloke/Mistral-7B-Instruct-v0.3-GGUF sur HuggingFace](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.3-GGUF)
+
+- **Exemple de lien de téléchargement direct (.Q4_K_M, version quantifiée, bon équilibre RAM/performance) :**  
+  👉 [Télécharger mistral-7b-instruct-v0.3.Q4_K_M.gguf](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.3-GGUF/resolve/main/mistral-7b-instruct-v0.3.Q4_K_M.gguf?download=true)
+
+*Astuce : Tu peux remplacer le nom du fichier pour choisir une autre version/quantification si besoin. Le téléchargement peut se faire en cliquant ou via `wget` :*
+```bash
+wget "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.3-GGUF/resolve/main/mistral-7b-instruct-v0.3.Q4_K_M.gguf"
+```
+
+---
+
+### 🧩 Quelle version choisir ?  
+Les modèles publiés en GGUF proposent plusieurs **versions selon la "quantification"** :
+
+| Version GGUF                    | RAM requise (approx.) | Vitesse        | Qualité         | Usage conseillé                   |
+|----------------------------------|----------------------|----------------|-----------------|-----------------------------------|
+| **Q2_K**                        | Faible               | Très rapide    | Qualité basse   | Démo, anciens PC                  |
+| **Q4_K_M** _(recommandé)_        | Moyenne (~5-6 Go)    | Rapide         | Bonne           | Usage quotidien                   |
+| **Q5_K_M**                      | Moyenne à élevée     | Moins rapide   | Très bonne      | Précision accrue                  |
+| **Q6_K, F16** _(float 16 bits)_ | Haute (>16 Go RAM)   | Plus lent      | Optimale        | Pour la meilleure qualité, gros PC/GPU|
+
+**Résumé**  
+- Version **Q4_K_M** : Bon compromis entre taille mémoire, rapidité et performance – idéale pour PC personnels et serveurs modestes.
+- Version **Q5, Q6, F16** : Plus gourmandes en RAM, mais meilleure fidélité de génération de texte (proche du modèle d’origine).
+- **Plus le chiffre est bas, plus le modèle est léger, mais la génération de texte est moins précise.**
+
+---
+
+### 🔎 Aller plus loin
+
+- Parcours toutes les versions et tailles sur la page du modèle :  
+  👉 [Liste des fichiers sur HuggingFace](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.3-GGUF/tree/main)
+- Vérifie si ton ordinateur dispose de la mémoire RAM suffisante en fonction de la version choisie.
+
+---
+
+> **Astuce** : Il est possible d’utiliser plusieurs versions selon ton besoin : rapide pour le test, plus lourde pour la production ou la recherche de qualité optimale.
 
 > L’installation est rapide et te permet d’expérimenter localement tout le potentiel du modèle Mistral 3 sur Debian 13 !
 
-N’hésite pas à demander des exemples de prompts, de scripts ou d’utilisation avancée.
 ---
 
 <div align="center">
