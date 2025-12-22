@@ -80,14 +80,13 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 <div align="center">
 
-| **Ressource**                  | **Description**                                                         | **Accès rapide**                                                                                                                    |
-|--------------------------------|-------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| **Introduction à l’IA pédagogique**   | Présentation, concepts clés et enjeux de l’IA pour l’apprentissage      | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)]()                         |
-| **Outils IA pour l’enseignement**     | Outils interactifs, plateformes d’exercices, quiz intelligents         | [![Explorer](https://img.shields.io/badge/EXPLORER-F1C232?style=for-the-badge&logo=github&logoColor=white)]()                         |
-| **Création de contenu pédagogique assistée** | Génération automatique de cours, supports, exercices                  | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)]()                         |
-| **Personnalisation de l’apprentissage**     | Adaptation du parcours selon le niveau et le rythme de l’élève         | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)]()                         |
-| **Exemples pratiques et tutoriels AI**      | Démonstrations, notebooks, cas d’usage, intégration dans la classe    | [![Explorer](https://img.shields.io/badge/EXPLORER-F1C232?style=for-the-badge&logo=github&logoColor=white)]()                         |
-| **Éthique & limites de l’IA pédagogique**   | Réflexions sur la confiance, la motivation, les biais                 | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]()                            |
+| **Ressource**                                | **Description**                                           | **Accès rapide**                                                                                              |
+|----------------------------------------------|-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| **Introduction à l’IA**                      | Présentation, concepts clés et enjeux de l’IA             | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)]() |
+| **Outils IA pour l’enseignement**            | Outils interactifs                                        | [![Explorer](https://img.shields.io/badge/EXPLORER-F1C232?style=for-the-badge&logo=github&logoColor=white)]() |
+| **Création de contenu pédagogique assistée** | Génération automatique de cours, supports ...             | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)]() |
+| **Exemples pratiques et tutoriels AI**       | Exemples pratiques et tutoriels                           | [![Explorer](https://img.shields.io/badge/EXPLORER-F1C232?style=for-the-badge&logo=github&logoColor=white)]() |
+| **Éthique & limites de l’IA**                | Réflexions sur la confiance, la motivation, les biais     | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]()    |
 
 </div>
 
