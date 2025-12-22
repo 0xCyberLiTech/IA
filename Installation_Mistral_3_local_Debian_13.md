@@ -77,7 +77,111 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 </div>
 
 ---
+## 🚀 Installation de Mistral 3 en local sous Debian 13
 
+Mistral 3 est un modèle de langage avancé, open source, optimisé pour l’exécution locale sur une machine Linux. Ce guide explique comment installer et commencer à utiliser Mistral 3 sur Debian 13, étape par étape.
+
+---
+
+### 🧩 Prérequis
+
+- Système d’exploitation : **Debian 13** (à jour)
+- Un utilisateur avec les droits `sudo`
+- **Python 3.9+** (ou version recommandée)
+- **Git** installé
+- Accès à Internet et suffisamment d’espace disque (plusieurs Go selon la taille du modèle)
+
+---
+
+### 1️⃣ Mise à jour du système et installation des dépendances
+
+```bash
+sudo apt update && sudo apt upgrade
+sudo apt install python3 python3-venv python3-pip git
+```
+
+---
+
+### 2️⃣ 📦 Création d’un environnement Python isolé
+
+```bash
+python3 -m venv mistral3-env
+source mistral3-env/bin/activate
+```
+
+---
+
+### 3️⃣ 🔽 Installation du serveur et du modèle Mistral 3
+
+#### Option 1 : Utiliser `llama-cpp-python` (recommandé pour local)
+
+> La méthode la plus simple pour utiliser Mistral 3 consiste à passer par [llama-cpp-python](https://github.com/abetlen/llama-cpp-python), compatible avec les modèles Mistral au format GGUF.
+
+1. **Installer llama-cpp-python :**
+
+```bash
+pip install --upgrade pip
+pip install llama-cpp-python
+```
+
+2. **Télécharger le modèle Mistral-3 au format GGUF :**
+
+- Rendez-vous sur [HuggingFace - mistralai/Mistral-7B-Instruct-v0.3-GGUF](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.3-GGUF)
+- Téléchargez un modèle GGUF (exemple : `mistral-7b-instruct-v0.3.Q4_K_M.gguf`) dans un dossier.
+
+3. **Lancer un prompt avec le modèle local :**
+
+```bash
+python3 -m llama_cpp.server \
+  --model ./chemin/vers/modele/mistral-7b-instruct-v0.3.Q4_K_M.gguf \
+  --host 127.0.0.1 --port 8000
+```
+
+- Le serveur REST sera accessible sur `http://127.0.0.1:8000/v1/chat/completions`
+
+---
+
+#### Option 2 : Utiliser [LM Studio](https://lmstudio.ai/) (interface graphique multiplateforme)
+
+- Télécharge LM Studio (AppImage ou .deb) depuis le site officiel.
+- Utilise LM Studio pour importer le modèle Mistral 3.
+- Démarre le modèle en local via l’interface.
+
+---
+
+### 4️⃣ 🖲️ Tester le modèle
+
+Avec llama-cpp-python :
+```python
+from llama_cpp import Llama
+
+llm = Llama(model_path="chemin/vers/le-modele/mistral-7b-instruct-v0.3.Q4_K_M.gguf")
+result = llm.create_completion("Explique le machine learning en une phrase.")
+print(result)
+```
+
+---
+
+### 🛠️ Dépannage
+
+- **Erreur “out of memory” :** essaye une version du modèle en quantification plus légère (Q4, Q5…).
+- **Pas d’AVX2 sur l’ordinateur :** prends un binaire compilé sans instructions AVX2 ou utilise des versions plus légères.
+- **Pour GPU Nvidia :** consulte la doc`llama-cpp-python` pour installer avec CUDA.
+
+---
+
+### 🔗 Ressources utiles
+
+- [Mistral AI - Site officiel](https://mistral.ai/)
+- [HuggingFace - Page des modèles Mistral-3](https://huggingface.co/models?search=mistral)
+- [Documentation llama-cpp-python](https://github.com/abetlen/llama-cpp-python)
+- [LM Studio - Interface locale](https://lmstudio.ai/)
+
+---
+
+> L’installation est rapide et te permet d’expérimenter localement tout le potentiel du modèle Mistral 3 sur Debian 13 !
+
+N’hésite pas à demander des exemples de prompts, de scripts ou d’utilisation avancée.
 ---
 
 <div align="center">
