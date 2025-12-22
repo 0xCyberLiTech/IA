@@ -85,7 +85,7 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 | **Introduction à l’IA**                      | Présentation, concepts clés et enjeux de l’IA             | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCyberLiTech/IA/blob/main/Introduction_IA.md) |
 | **Types d'IA** | Les différents types d’intelligence artificielle (IA)            | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCyberLiTech/IA/blob/main/Types_IA.md) |
 | **Machine Learning et Deep Learning**       | Comprendre le Machine Learning et le Deep Learning          | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCyberLiTech/IA/blob/main/Machine_Learning%2C_et_Deep_Learning.md) |
-| **Éthique & limites de l’IA**                | Réflexions sur la confiance, motivation & biais           | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)]() |
+| **Éthique & limites de l’IA**                | Réflexions sur la confiance, motivation & biais           | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCyberLiTech/IA/blob/main/%C3%89thique_limites_de_l_IA.md) |
 | **Outils IA**                                | Outils interactifs                                        | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCyberLiTech/IA/blob/main/Outils_IA.md) |
 
 </div>
