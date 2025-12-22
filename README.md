@@ -86,7 +86,7 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 | **Outils IA pour l’enseignement**            | Outils interactifs                                        | [![Explorer](https://img.shields.io/badge/EXPLORER-F1C232?style=for-the-badge&logo=github&logoColor=white)]() |
 | **Création de contenu pédagogique assistée** | Génération automatique de cours, supports ...             | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)]() |
 | **Exemples pratiques et tutoriels AI**       | Exemples pratiques et tutoriels                           | [![Explorer](https://img.shields.io/badge/EXPLORER-F1C232?style=for-the-badge&logo=github&logoColor=white)]() |
-| **Éthique & limites de l’IA**                | Réflexions sur la confiance, la motivation, les biais     | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]()    |
+| **Éthique & limites de l’IA**                | Réflexions sur la confiance, motivation, biais            | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]()    |
 
 </div>
 
