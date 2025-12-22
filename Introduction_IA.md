@@ -120,7 +120,6 @@ Ce dépôt est conçu comme une porte d’entrée accessible et progressive à l
 - Des explications pédagogiques sur les concepts majeurs de l’IA (machine learning, deep learning, traitement du langage, etc.)
 - Des tutoriels détaillés pour installer, configurer et expérimenter des outils IA sur Debian 12 ou 13 ;
 - Des exemples de projets à réaliser pour consolider tes compétences ;
-- Des ressources pour aller plus loin : livres, cours, communautés, outils open source.
 
 > **Rejoins l’aventure de l’intelligence artificielle : chaque étape, chaque essai, chaque erreur, est le début d’une découverte. Ce support est fait pour t’inspirer, t’accompagner et te donner les clés pour devenir créateur dans ce domaine fascinant.**
 
