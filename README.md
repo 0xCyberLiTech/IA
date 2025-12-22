@@ -85,7 +85,7 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 | **Introduction à l’IA**                      | Présentation, concepts clés et enjeux de l’IA             | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCyberLiTech/IA/blob/main/Introduction_IA.md) |
 | **Outils IA**                                | Outils interactifs                                        | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCyberLiTech/IA/blob/main/Outils_IA.md) |
 | **Création de contenu pédagogique assistée** | Génération automatique de cours, supports ...             | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)]() |
-| **Exemples pratiques et tutoriels AI**       | Exemples pratiques et tutoriels                           | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)]() |
+| **Machine Learning et Deep Learning*       | Comprendre le Machine Learning et le Deep Learning          | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)]() |
 | **Éthique & limites de l’IA**                | Réflexions sur la confiance, motivation & biais           | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)]() |
 
 </div>
