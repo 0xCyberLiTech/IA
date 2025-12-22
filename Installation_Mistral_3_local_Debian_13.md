@@ -127,7 +127,7 @@ pip install llama-cpp-python
 
 2. **Télécharger le modèle Mistral-3 au format GGUF :**
 
-- Rendez-vous sur [HuggingFace - mistralai/Mistral-7B-Instruct-v0.3-GGUF](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.3-GGUF)
+- Rendez-vous sur [HuggingFace - mistralai/Mistral-7B-Instruct-v0.3-GGUF](https://huggingface.co/mistralai)
 - Téléchargez un modèle GGUF (exemple : `mistral-7b-instruct-v0.3.Q4_K_M.gguf`) dans un dossier.
 
 3. **Lancer un prompt avec le modèle local :**
