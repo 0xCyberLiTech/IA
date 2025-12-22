@@ -154,14 +154,14 @@ L’IA détecte la combinaison de connexions inhabituelles sur un endpoint, un a
 **Schéma interactif (XDR corrélation avancée)**
 
 ```mermaid
-flowchart TB
-    Endpoint --> CollecteXDR(XDR IA)
-    Emails --> CollecteXDR
-    Cloud --> CollecteXDR
-    Réseau --> CollecteXDR
-    CollecteXDR -- Correlation---> IA_Decision
-    IA_Decision -- Alerte critique --> Analyste/SOC
-    IA_Decision -- Incident bénin --> Archive/SIEM
+flowchart LR
+    Internet -- Trafic --> PareFeu
+    PareFeu -- Flux réseau --> IA_NDR
+    IA_NDR -- Profilage ML --> AnalyseAnomalie
+    AnalyseAnomalie -- Flux suspect --> Blocage_Alerte
+    AnalyseAnomalie -- Normal --> SIEM_Historique
+    Blocage_Alerte[Blocage automatique et alerte]
+    SIEM_Historique[Archive et historique SIEM]
 ```
 
 ---
