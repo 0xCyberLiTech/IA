@@ -115,7 +115,8 @@ source mistral3-env/bin/activate
 
 #### Option 1 : Utiliser `llama-cpp-python` (recommandé pour local)
 
-> La méthode la plus simple pour utiliser Mistral 3 consiste à passer par [llama-cpp-python](https://github.com/abetlen/llama-cpp-python), compatible avec les modèles Mistral au format GGUF.
+> La méthode la plus simple pour utiliser Mistral 3 consiste à passer par llama-cpp-python 
+compatible avec les modèles Mistral au format GGUF.
 
 1. **Installer llama-cpp-python :**
 
