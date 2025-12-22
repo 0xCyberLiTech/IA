@@ -181,12 +181,28 @@ Un flux persistant à faible volume vers une IP rare est découvert : l’IA N
 **Schéma interactif (NDR détection d'exfiltration)**
 
 ```mermaid
-flowchart LR
-    Internet -- Trafic --> PareFeu
-    PareFeu -- Flux réseau --> IA_NDR
-    IA_NDR -- Profilage ML --> AnalyseAnomalie
-    AnalyseAnomalie -- Flux suspect --> Blocage|Alerte
-    AnalyseAnomalie -- Normal --> SIEM/Historique
+flowchart TD
+    Internet((🌐 Internet))
+    Utilisateur([Utilisateur Interne])
+    PareFeu[[Pare-feu réseau]]
+    NDR[Boîtier NDR / IA]
+    Analyse(Analyse comportementale IA)
+    FluxAnalyse[Flux réseau analysé]
+    Suspicion{Flux anormal détecté ?}
+    Exfiltration[Blocage & Alerte (exfiltration suspecte)]
+    SIEM([SIEM / Journalisation])
+    Normal[Flux archivé : pas d’anomalie]
+
+    Utilisateur --> PareFeu
+    Internet --> PareFeu
+    PareFeu --> NDR
+    NDR --> Analyse
+    Analyse --> FluxAnalyse
+    FluxAnalyse --> Suspicion
+    Suspicion -- Oui --> Exfiltration
+    Suspicion -- Non --> Normal
+    Exfiltration --> SIEM
+    Normal --> SIEM
 ```
 
 ---
