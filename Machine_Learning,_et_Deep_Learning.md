@@ -93,16 +93,16 @@ Le **Machine Learning** (apprentissage automatique) permet à une machine d’ap
          +-------------------+
                    |
                    v
-         +-------------------+
-         |  Algorithme d'    |
-         |  apprentissage    |
-         +-------------------+
+         +---------------------+
+         |    Algorithme d'    |
+         |    apprentissage    |
+         +---------------------+
                    |
                    v
-         +-------------------+
-         |      Modèle       |
-         |   (prédit/résout) |
-         +-------------------+
+         +----------------------+
+         |      Modèle          |
+         |    (prédit/résout)   |
+         +----------------------+
                    |
                 Nouvelles données
                    |
