@@ -82,7 +82,7 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 | **Ressource**                                | **Description**                                           | **Accès rapide**                                                                                              |
 |----------------------------------------------|-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| **Introduction à l’IA**                      | Présentation, concepts clés et enjeux de l’IA             | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCyberLiTech/IA/blob/main/Introduction_IA.md) |
+| **Introduction à l’IA**                      | Présentation, concepts clés et enjeux de l’IA             | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCyberLiTech/IA/blob/main/Introduction_IA.md) |
 | **Outils IA pour l’enseignement**            | Outils interactifs                                        | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]() |
 | **Création de contenu pédagogique assistée** | Génération automatique de cours, supports ...             | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]() |
 | **Exemples pratiques et tutoriels AI**       | Exemples pratiques et tutoriels                           | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]() |
