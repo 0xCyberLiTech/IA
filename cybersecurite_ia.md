@@ -77,7 +77,7 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 </div>
 
 ---
-# Support pédagogique : Cybersécurité & Intelligence Artificielle
+# Cybersécurité & Intelligence Artificielle
 
 ---
 
