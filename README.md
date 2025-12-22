@@ -3,28 +3,31 @@
   <br></br>
   
   <a href="https://github.com/0xCyberLiTech">
-    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=50&duration=6000&pause=1000000000&color=FF0048&center=true&vCenter=true&width=1100&lines=%3ECYBERLITECH_" alt="Titre dyna[...]
+    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=50&duration=6000&pause=1000000000&color=FF0048&center=true&vCenter=true&width=1100&lines=%3EOPENVAS_" alt="Titre dynamique OPENVAS" />
   </a>
   
   <br></br>
-
-  <h2>Laboratoire numérique pour la cybersécurité, Linux & IT.</h2>
   
+  <h2>Laboratoire numérique pour la cybersécurité, Linux & IT.</h2>
+
   <p align="center">
     <a href="https://0xcyberlitech.github.io/">
-      <img src="https://img.shields.io/badge/Portfolio-0xCyberLiTech-181717?logo=github&style=flat-square" alt="Portfolio" />
+      <img src="https://img.shields.io/badge/Portfolio-0xCyberLiTech-181717?logo=github&style=flat-square" alt="🌐 Portfolio" />
     </a>
     <a href="https://github.com/0xCyberLiTech">
-      <img src="https://img.shields.io/badge/Profil-GitHub-181717?logo=github&style=flat-square" alt="Profil GitHub" />
+      <img src="https://img.shields.io/badge/Profil-GitHub-181717?logo=github&style=flat-square" alt="🔗 Profil GitHub" />
     </a>
-    <a href="https://github.com/0xCyberLiTech/0xcyberlitech/releases/latest">
-      <img src="https://img.shields.io/github/v/release/0xCyberLiTech/0xcyberlitech?label=version" alt="Latest Release" />
+    <a href="https://github.com/0xCyberLiTech/OpenVAS/releases/latest">
+      <img src="https://img.shields.io/github/v/release/0xCyberLiTech/OpenVAS?label=version&style=flat-square&color=blue" alt="📦 Dernière version" />
     </a>
-    <a href="https://github.com/0xCyberLiTech/0xcyberlitech/blob/main/CHANGELOG.md">
-      <img src="https://img.shields.io/badge/📄%20CHANGELOG-0xcyberlitech-blue" alt="Changelog" />
+    <a href="https://github.com/0xCyberLiTech/OpenVAS/blob/main/CHANGELOG.md">
+      <img src="https://img.shields.io/badge/📄%20Changelog-OpenVAS-blue?style=flat-square" alt="📄 CHANGELOG OpenVAS" />
     </a>
     <a href="https://github.com/0xCyberLiTech?tab=repositories">
-      <img src="https://img.shields.io/badge/Dépôts-publics-blue?style=flat-square" alt="Dépôts publics" />
+      <img src="https://img.shields.io/badge/Dépôts-publics-blue?style=flat-square" alt="📂 Dépôts publics" />
+    </a>
+    <a href="https://github.com/0xCyberLiTech/OpenVAS/graphs/contributors">
+      <img src="https://img.shields.io/badge/👥%20Contributeurs-cliquez%20ici-007ec6?style=flat-square" alt="👥 Contributeurs OpenVAS" />
     </a>
   </p>
 
@@ -36,18 +39,19 @@
 
 <div align="center">
   <p>
-    <strong>Cybersécurité</strong> <img src="https://img.icons8.com/color/24/000000/lock--v1.png"/> • <strong>Linux Debian</strong> <img src="https://img.icons8.com/color/24/000000/linux.png"/> ��[...]
+    <strong>Cybersécurité</strong> <img src="https://img.icons8.com/color/24/000000/lock--v1.png"/> • <strong>Linux Debian</strong> <img src="https://img.icons8.com/color/24/000000/linux.png"/> • <strong>Sécurité informatique</strong> <img src="https://img.icons8.com/color/24/000000/shield-security.png"/>
   </p>
 </div>
 
 ---
+
 <div align="center">
   
 ## À propos & Objectifs.
 
 </div>
 
-Ce projet propose des solutions innovantes et accessibles en cybersécurité, avec une approche centrée sur la simplicité d’utilisation et l’efficacité. Il vise à accompagner les utilisateurs [...]
+Ce projet propose des solutions innovantes et accessibles en cybersécurité, avec une approche centrée sur la simplicité d’utilisation et l’efficacité. Il vise à accompagner les utilisateurs dans la protection de leurs données et systèmes, tout en favorisant l’apprentissage et le partage des connaissances.
 
 Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoins de :
 - 🎓 Étudiants : approfondir les connaissances
@@ -55,6 +59,10 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 - 🖥️ Administrateurs système : sécuriser l’infrastructure
 - 🛡️ Experts cybersécurité : ressources techniques
 - 🚀 Passionnés du numérique : explorer les bonnes pratiques
+
+---
+
+> Guide complet pour comprendre, installer et utiliser OpenVAS (Greenbone Vulnerability Management) vers Debian 12 & Debian 13.
 
 ---
 
@@ -72,10 +80,37 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 <div align="center">
 
-| **Catégorie**     | **Description**                              | **Accès rapide**                                                                                                                 [...]
-|-------------------|----------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------[...]
-| **CYBERSECURITE** | Fondamentaux & bonnes pratiques              | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCy[...]
-| **ASTUCES**       | Astuces & bonnes pratiques                   | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCy[...]
-| **DHCP**          | Installation & configuration                 | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCy[...]
-| **NTPSEC**        | Installation & configuration                 | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCy[...]
-| **SUPERVISION**   | Introduction, installation & configuration   | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)]
+---
+
+<div align="center">
+
+## 🧠 IA Pédagogue – Sommaire
+
+| **Ressource**                  | **Description**                                                         | **Accès rapide**                                                                                                                    |
+|--------------------------------|-------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| **Introduction à l’IA pédagogique**   | Présentation, concepts clés et enjeux de l’IA pour l’apprentissage      | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)]()                         |
+| **Outils IA pour l’enseignement**     | Outils interactifs, plateformes d’exercices, quiz intelligents         | [![Explorer](https://img.shields.io/badge/EXPLORER-F1C232?style=for-the-badge&logo=github&logoColor=white)]()                         |
+| **Création de contenu pédagogique assistée** | Génération automatique de cours, supports, exercices                  | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)]()                         |
+| **Personnalisation de l’apprentissage**     | Adaptation du parcours selon le niveau et le rythme de l’élève         | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)]()                         |
+| **Exemples pratiques et tutoriels AI**      | Démonstrations, notebooks, cas d’usage, intégration dans la classe    | [![Explorer](https://img.shields.io/badge/EXPLORER-F1C232?style=for-the-badge&logo=github&logoColor=white)]()                         |
+| **Éthique & limites de l’IA pédagogique**   | Réflexions sur la confiance, la motivation, les biais                 | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]()                            |
+
+</div>
+
+---
+
+
+</div>
+
+---
+
+<div align="center">
+  <a href="https://github.com/0xCyberLiTech" target="_blank" rel="noopener">
+    <img src="https://skillicons.dev/icons?i=linux,debian,bash,docker,nginx,git,vim,python,markdown" alt="Skills" width="440">
+  </a>
+</div>
+
+<div align="center">
+  <b>🔒 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour des tutoriels accessibles à tous. 🔒</b>
+</div>
+
