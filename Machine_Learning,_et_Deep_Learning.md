@@ -77,6 +77,65 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 </div>
 
 ---
+## 🤔 Comprendre le Machine Learning et le Deep Learning
+
+### 🧠 Qu’est-ce que le Machine Learning ?
+
+Le **Machine Learning** (apprentissage automatique) permet à une machine d’apprendre à partir de données pour trouver des logiques ou faire des prédictions, sans être explicitement programmée pour chaque tâche.
+
+#### **Schéma simplifié du Machine Learning**
+
+```
+         Données d'apprentissage
+         +-------------------+
+         |   images, texte   |
+         |    chiffres...    |
+         +-------------------+
+                   |
+                   v
+         +-------------------+
+         |  Algorithme d'    |
+         |  apprentissage    |
+         +-------------------+
+                   |
+                   v
+         +-------------------+
+         |      Modèle       |
+         |   (prédit/résout) |
+         +-------------------+
+                   |
+                Nouvelles données
+                   |
+                   v
+          Prédictions/résultats
+```
+
+---
+
+### 🤖 Qu’est-ce que le Deep Learning ?
+
+Le **Deep Learning** (apprentissage profond) est un sous-domaine du machine learning qui utilise des **réseaux de neurones** comportant de nombreuses couches (profondeur).
+
+#### **Schéma d’un réseau de neurones profond**
+
+```
+Entrée (ex : image ou texte)
+         |
+   +-----+-----+       Couche cachée      Couche cachée      Couche de sortie
+   |   Neurone |----> [O]---->[O]---->[O]----> ... ---->[O]---->[Résultat]
+   |   Neurone |----> [O]---->[O]---->[O]----> ... ---->[O]---->[Résultat]
+   +-----+-----+
+         |
+   (plusieurs entrées)
+```
+
+- **Entrées** : pixels d’une image, mots d’un texte, etc.
+- **Couches cachées** : extraient automatiquement les caractéristiques importantes
+- **Sortie** : classification, prédiction, etc.
+
+---
+
+> Le machine learning et le deep learning transforment nos usages grâce à leur capacité d’apprentissage. Comprendre ces schémas aide à mieux saisir la logique de ces systèmes et leur potentiel fascinant !
 
 ---
 
