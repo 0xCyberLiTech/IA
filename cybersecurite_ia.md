@@ -77,27 +77,6 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 </div>
 
 ---
-# Cybersécurité & Intelligence Artificielle
-
----
-
-## Sommaire
-
-1. [Introduction à la cybersécurité et à l’IA](#intro)
-2. [Les fondamentaux de la cybersécurité](#fondamentaux)
-3. [Intelligence artificielle en cybersécurité](#ia-cyber)
-4. [Architectures EDR, XDR et NDR](#architectures)
-   - [EDR](#edr)
-   - [XDR](#xdr)
-   - [NDR](#ndr)
-5. [Réponse aux incidents](#incident-response)
-6. [Schémas pédagogiques](#schemas)
-7. [Cas pratiques IA & cybersécurité](#cas-pratiques)
-8. [Ressources complémentaires](#ressources)
-9. [Glossaire](#glossaire)
-
----
-
 <a name="intro"></a>
 # 1. Introduction à la cybersécurité et à l’IA
 
@@ -154,14 +133,14 @@ L’IA détecte la combinaison de connexions inhabituelles sur un endpoint, un a
 **Schéma interactif (XDR corrélation avancée)**
 
 ```mermaid
-flowchart LR
-    Internet -- Trafic --> PareFeu
-    PareFeu -- Flux réseau --> IA_NDR
-    IA_NDR -- Profilage ML --> AnalyseAnomalie
-    AnalyseAnomalie -- Flux suspect --> Blocage_Alerte
-    AnalyseAnomalie -- Normal --> SIEM_Historique
-    Blocage_Alerte[Blocage automatique et alerte]
-    SIEM_Historique[Archive et historique SIEM]
+flowchart TB
+    Endpoint --> CollecteXDR(XDR IA)
+    Emails --> CollecteXDR
+    Cloud --> CollecteXDR
+    Réseau --> CollecteXDR
+    CollecteXDR -- Correlation---> IA_Decision
+    IA_Decision -- Alerte critique --> Analyste/SOC
+    IA_Decision -- Incident bénin --> Archive/SIEM
 ```
 
 ---
@@ -181,28 +160,12 @@ Un flux persistant à faible volume vers une IP rare est découvert : l’IA N
 **Schéma interactif (NDR détection d'exfiltration)**
 
 ```mermaid
-flowchart TD
-    Internet((🌐 Internet))
-    Utilisateur([Utilisateur Interne])
-    PareFeu[[Pare-feu réseau]]
-    NDR[Boîtier NDR / IA]
-    Analyse(Analyse comportementale IA)
-    FluxAnalyse[Flux réseau analysé]
-    Suspicion{Flux anormal détecté ?}
-    Exfiltration[Blocage & Alerte (exfiltration suspecte)]
-    SIEM([SIEM / Journalisation])
-    Normal[Flux archivé : pas d’anomalie]
-
-    Utilisateur --> PareFeu
-    Internet --> PareFeu
-    PareFeu --> NDR
-    NDR --> Analyse
-    Analyse --> FluxAnalyse
-    FluxAnalyse --> Suspicion
-    Suspicion -- Oui --> Exfiltration
-    Suspicion -- Non --> Normal
-    Exfiltration --> SIEM
-    Normal --> SIEM
+flowchart LR
+    Internet -- Trafic --> PareFeu
+    PareFeu -- Flux réseau --> IA_NDR
+    IA_NDR -- Profilage ML --> AnalyseAnomalie
+    AnalyseAnomalie -- Flux suspect --> Blocage|Alerte
+    AnalyseAnomalie -- Normal --> SIEM/Historique
 ```
 
 ---
@@ -297,7 +260,6 @@ flowchart LR
 - **SOC** : Security Operations Center  
 - **Incident Response** : Processus de gestion d’incident  
 - **REX** : Retour d’Expérience  
-
 ---
 
 <div align="center">
