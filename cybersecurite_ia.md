@@ -99,146 +99,171 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 ---
 
 <a name="intro"></a>
-## 1. Introduction à la cybersécurité et à l’IA
+# 1. Introduction à la cybersécurité et à l’IA
 
-La cybersécurité vise à protéger les systèmes informatiques contre les menaces numériques. L’IA révolutionne la détection et la réaction face aux attaques, notamment en automatisant l’analyse de gigantesques volumes de données et en adaptant les stratégies défensives.
+La cybersécurité protège les systèmes informatiques contre les menaces numériques. L’intelligence artificielle (IA) révolutionne ce domaine en permettant l’automatisation de la détection, de l’analyse et de la réaction face aux attaques, rendant la défense plus rapide, évolutive et efficace.
+
+---
+
+## L’IA au cœur des architectures EDR, XDR et NDR
+
+L’IA est devenue l’élément clé des architectures modernes :  
+- Elle automatise l’analyse de millions de données contextuelles.
+- Elle apprend en continu des nouveaux scénarios d’attaque.
+- Elle réagit en quelques secondes, bien plus vite que l’humain seul.
+
+---
+
+### 1. EDR (Endpoint Detection & Response) BOOSTÉ PAR L’IA
+
+- **Surveillance comportementale** :  
+  L’IA examine en temps réel chaque action sur le poste (fichiers ouverts, processus lancés, connexions, etc.) et détecte d’anomalies invisibles aux outils traditionnels.
+- **Détection proactive** :  
+  Le machine learning repère les attaques nouvelles, y compris celles sans signature.
+- **Réponse automatisée** :  
+  L’IA peut confiner un poste, supprimer un fichier ou alerter un analyste instantanément.
+
+**Exemple** :  
+Un accès et des modifications anormales de fichiers par un utilisateur sont reconnus : le terminal est isolé en quelques secondes.
+
+**Schéma interactif (EDR décision automatisée)**
+
+```mermaid
+flowchart LR
+    Utilisateur -- Actions --> Endpoint
+    Endpoint -- Collecte logs --> IA_EDR
+    IA_EDR -- Analyse --> IA_Evaluation
+    IA_Evaluation -- Détection d'anomalie ? --> Yes[Oui: Isolement & Alerte]
+    IA_Evaluation -- Détection d'anomalie ? --> No[Non: Monitoring continu]
+```
+
+---
+
+### 2. XDR (Extended Detection & Response) PORTÉ PAR L’IA
+
+- **Corrélation multi-sources** :  
+  L’IA analyse en simultané endpoints, réseau, cloud, emails et détecte des schémas d’attaque globaux impossibles à voir manuellement.
+- **Réduction de la fatigue des alertes** :  
+  L’IA regroupe, classe et priorise les incidents pour se concentrer sur les menaces réelles.
+- **Orchestration de la réaction** :  
+  Playbooks de réponse automatiques, déclenchés selon le contexte.
+
+**Exemple** :  
+L’IA détecte la combinaison de connexions inhabituelles sur un endpoint, un accès cloud suspect et un mail suspect : XDR bloque l’accès et alerte le SOC.
+
+**Schéma interactif (XDR corrélation avancée)**
+
+```mermaid
+flowchart TB
+    Endpoint --> CollecteXDR(XDR IA)
+    Emails --> CollecteXDR
+    Cloud --> CollecteXDR
+    Réseau --> CollecteXDR
+    CollecteXDR -- Correlation---> IA_Decision
+    IA_Decision -- Alerte critique --> Analyste/SOC
+    IA_Decision -- Incident bénin --> Archive/SIEM
+```
+
+---
+
+### 3. NDR (Network Detection & Response) AUGMENTÉ PAR L’IA
+
+- **Apprentissage du comportement réseau** :  
+  L’IA modélise le trafic "normal" pour chaque environnement et détecte immédiatement toute activité suspecte ou inconnue (command & control, exfiltration).
+- **Détection d’anomalies sans signature** :  
+  Les algorithmes non supervisés révèlent des techniques d’attaque inédites.
+- **Classification & priorisation pour les analystes** :  
+  L’IA simplifie l’investigation face à de vastes volumes de données.
+
+**Exemple** :  
+Un flux persistant à faible volume vers une IP rare est découvert : l’IA NDR catégorise cela comme exfiltration potentielle et lance un blocage automatique.
+
+**Schéma interactif (NDR détection d'exfiltration)**
+
+```mermaid
+flowchart LR
+    Internet -- Trafic --> PareFeu
+    PareFeu -- Flux réseau --> IA_NDR
+    IA_NDR -- Profilage ML --> AnalyseAnomalie
+    AnalyseAnomalie -- Flux suspect --> Blocage|Alerte
+    AnalyseAnomalie -- Normal --> SIEM/Historique
+```
+
+---
+
+**En résumé**  
+L’IA permet à ces briques de :  
+- Détecter l’insoupçonnable  
+- Accélérer la réponse  
+- Soulager les analystes  
+- Optimiser la sécurité globale, même pour les menaces les plus modernes
 
 ---
 
 <a name="fondamentaux"></a>
-## 2. Les fondamentaux de la cybersécurité
+# 2. Les fondamentaux de la cybersécurité
 
-- **Menaces courantes** : malwares, ransomwares, phishing, exploits zero-day
-- **Acteurs malveillants** : cybercriminels, hacktivistes, insiders
-- **Principes de défense** : prévention, détection, réaction, traçabilité
+- **Menaces courantes** : malware, ransomware, phishing, exploits zero-day  
+- **Acteurs malveillants** : cybercriminels, hacktivistes, insiders  
+- **Principes de défense** : prévention, détection, réaction, traçabilité
 
 ---
 
 <a name="ia-cyber"></a>
-## 3. Intelligence artificielle en cybersécurité
+# 3. Intelligence artificielle en cybersécurité
 
-- **Automatisation** : surveillance continue et réponse proactive
-- **Machine Learning** : détection d’anomalies, classification de comportements suspects
-- **Analyse prédictive** : anticipation de nouveaux types d'attaques
-- **Threat Intelligence** : enrichissement des alertes par la veille automatisée
+- **Automatisation** : surveillance & réponse proactive  
+- **Machine Learning** : classification de comportements suspects  
+- **Analyse prédictive** : anticipation de nouveaux types d’attaques  
+- **Threat Intelligence** : enrichissement des alertes, veille automatisée
 
-**Exemple :**  
-Une IA peut repérer un comportement inhabituel sur le réseau interne et déclencher une analyse poussée ou un isolement du poste concerné.
+**Exemple** :  
+Une IA repère un comportement réseau inhabituel et enclenche automatiquement une analyse approfondie ou un confinement du poste concerné.
 
 ---
 
 <a name="architectures"></a>
-## 4. Architectures EDR, XDR et NDR
+# 4. Architectures EDR, XDR et NDR (Résumé visuel)
 
-<a name="edr"></a>
-### EDR (Endpoint Detection & Response)
-
-L’EDR surveille les terminaux (PC, serveurs...), détecte, analyse et remédie à des menaces avancées.
-
-**Principales fonctions :**
-- Monitoring en temps réel
-- Enquête forensique
-- Isolation des endpoints infectés
-
-**Schéma EDR :**
-
-```mermaid
-flowchart LR
-    Utilisateur -- Agent EDR --> Console_EDR
-    Console_EDR -- Alertes --> Equipe_SOC
-```
-
----
-
-<a name="xdr"></a>
-### XDR (Extended Detection & Response)
-
-L'XDR va plus loin que l'EDR en intégrant données endpoint, réseau, cloud et email, pour une vision globale.
-
-**Fonctions clés :**
-- Correlation multi-sources
-- Automatisation de la réponse
-- Orchestration centralisée
-
-**Schéma XDR :**
-
-```mermaid
-flowchart TB
-    Endpoint --> XDR
-    Réseau --> XDR
-    Cloud --> XDR
-    Email --> XDR
-    XDR --> Analyste_SOC
-```
-
----
-
-<a name="ndr"></a>
-### NDR (Network Detection & Response)
-
-Le NDR surveille le trafic réseau pour détecter des comportements malveillants (mouvements latéraux, exfiltration de données).
-
-**Fonctions principales :**
-- Analyse en temps réel des paquets
-- Détection d'anomalies réseau
-- Réaction automatique (blocage/isolement)
-
-**Schéma NDR :**
-
-```mermaid
-flowchart LR
-    Internet -- Trafic --> Pare-feu
-    Pare-feu -- Flux réseau --> NDR
-    NDR -- Signalement --> Analyste_SOC
-```
+- **EDR** : Protection terminale (voir schéma ci-dessus)
+- **XDR** : Vision globale et automatisation (voir schéma ci-dessus)
+- **NDR** : Surveillance & blocage réseau (voir schéma ci-dessus)
 
 ---
 
 <a name="incident-response"></a>
-## 5. Réponse aux incidents
+# 5. Réponse aux incidents
 
-**Étapes typiques :**
-1. Détection
-2. Containment (confinement)
-3. Éradication
-4. Restauration
-5. Retour d'expérience
+**Étapes typiques :**  
+1. Détection  
+2. Confinement  
+3. Éradication  
+4. Restauration  
+5. Retour d’expérience (REX)
 
-**Schéma de gestion d'incident :**
+**Schéma interactif (Cycle incident)**
 
 ```mermaid
-sequenceDiagram
-    participant SI as Système
-    participant SOC as Analyste SOC
-    SI->>SOC: Détection de menace
-    SOC->>SI: Confinement
-    SOC->>SI: Éradication
-    SOC->>SI: Restauration
-    SOC->>SOC: REX (Retour d’expérience)
+flowchart LR
+    Detection --> Confinement
+    Confinement --> Eradication
+    Eradication --> Restauration
+    Restauration --> REX
 ```
 
 ---
 
 <a name="schemas"></a>
-## 6. Schémas pédagogiques
+# 6. Cas interactifs et pédagogiques
 
-- **EDR** : Protection au niveau terminal, réponse locale
-- **XDR** : Vision transversale, réponse automatisée multi-domaines
-- **NDR** : Surveillance réseau, analyse approfondie des flux
-
----
-
-<a name="cas-pratiques"></a>
-## 7. Cas pratiques IA & cybersécurité
-
-- **Détection de phishing par analyse comportementale IA**
-- **Détection proactive de ransomware sur endpoint**
-- **Réponse automatisée à une exfiltration réseau détectée par NDR**
+- **EDR** : Détection d’exécution de script PowerShell malveillant
+- **XDR** : Orchestration post-phishing multi-vector
+- **NDR** : Blocage automatique d’un tunnel SSH non autorisé
 
 ---
 
 <a name="ressources"></a>
-## 8. Ressources complémentaires
+# 7. Ressources complémentaires
 
 - [ANSSI](https://www.ssi.gouv.fr)
 - [MITRE ATT&CK](https://attack.mitre.org/)
@@ -248,14 +273,14 @@ sequenceDiagram
 ---
 
 <a name="glossaire"></a>
-## 9. Glossaire
+# 8. Glossaire
 
-- **EDR** : Endpoint Detection & Response
-- **XDR** : Extended Detection & Response
-- **NDR** : Network Detection & Response
-- **SOC** : Security Operations Center
-- **Incident Response** : Processus de gestion d’incident
-- **REX** : Retour d’Expérience
+- **EDR** : Endpoint Detection & Response  
+- **XDR** : Extended Detection & Response  
+- **NDR** : Network Detection & Response  
+- **SOC** : Security Operations Center  
+- **Incident Response** : Processus de gestion d’incident  
+- **REX** : Retour d’Expérience  
 
 ---
 
