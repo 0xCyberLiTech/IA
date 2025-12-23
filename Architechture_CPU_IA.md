@@ -104,6 +104,8 @@ flowchart TB
     C5 --> F3[ONNX]
 ```
 
+> **Le CPU dédié IA adapte le processeur traditionnel en intégrant des unités de calcul vectorielles (SIMD), des caches améliorés et parfois de petits accélérateurs IA. Il permet d’exécuter efficacement des tâches d’intelligence artificielle au sein des ordinateurs ou objets connectés, tout en restant polyvalent et compatible avec les grands frameworks (TensorFlow, PyTorch, ONNX).**
+
 ---
 
 ## Schéma du NPU (Neural Processing Unit)
@@ -121,6 +123,7 @@ flowchart TB
     N6 --> F2[TensorFlow Lite]
     N6 --> F3[CoreML]
 ```
+> **Le NPU est une puce spécialisée qui accélère le calcul des réseaux de neurones tout en optimisant la consommation énergétique. Elle est pensée pour l’inférence rapide, notamment dans les smartphones, objets connectés et systèmes embarqués. Sa compatibilité avec ONNX Runtime, TensorFlow Lite et CoreML facilite le déploiement d’IA dans des environnements mobiles et edge.**
 
 ---
 
@@ -138,6 +141,7 @@ flowchart TB
     G6 --> F1[TensorFlow]
     G6 --> F2[PyTorch]
 ```
+> **Le GPU pour IA est composé de milliers de processeurs parallèles et de cœurs tensoriels, ce qui le rend idéal pour l’entraînement de modèles très volumineux. Utilisé principalement dans les data centers, il offre une forte puissance de calcul pour l’apprentissage profond, au prix d’une consommation énergétique élevée. Il reste compatible avec les principaux frameworks IA pour le développement avancé.**
 
 ---
 
