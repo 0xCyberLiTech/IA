@@ -164,6 +164,7 @@ Légende :
         - Intelligence artificielle générale (AGI)
         - Collaboration homme-machine
 ---
+> **En résumé** : L’IA doit rester un outil au service de l’humain, respectueux de la loi, éthique et transparent. Apprendre l’IA, c’est aussi apprendre à construire un futur technologique plus juste et plus sûr.
 ---
 
 <div align="center">
