@@ -77,7 +77,12 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 </div>
 
 ---
-## 🤔 Comprendre le Machine Learning et le Deep Learning
+
+<div align="center">
+  
+# Comprendre le Machine Learning et le Deep Learning
+
+</div>
 
 ### 🧠 Qu’est-ce que le Machine Learning ?
 
