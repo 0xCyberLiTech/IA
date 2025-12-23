@@ -77,7 +77,16 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 </div>
 
 ---
-# Logigramme : Raisonnement d’une Intelligence Artificielle
+# Logigramme sophistiqué : Raisonnement d’une Intelligence Artificielle
+
+## Introduction
+
+L’intelligence artificielle (IA) ne se limite pas à « penser » ou à donner des réponses. Elle s’appuie sur un enchaînement de phases bien établies, allant de la collecte de données jusqu’à la prise de décision. Chaque étape a sa fonction précise et s’appuie sur la précédente pour garantir des résultats fiables et adaptés.
+
+Le schéma ci-dessous détaille ces différentes étapes : cela vous permettra de mieux comprendre comment une IA « raisonne », s’améliore et propose des solutions, que ce soit dans le cadre d’applications grand public (assistants vocaux, recommandations) ou de systèmes industriels complexes.  
+Même si certains termes peuvent paraître techniques, retenez que l’ensemble du processus vise toujours à tirer le meilleur parti des données pour fournir une aide ou une automatisation intelligente.
+
+---
 
 ```
         +--------------------------------------+
@@ -160,6 +169,10 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 ---
 
+> **💡 Astuce :** Pour un schéma graphique, exporte ce processus vers un outil visuel comme draw.io, XMind, ou Lucidchart.
+
+---
+
 <div align="center">
   <a href="https://github.com/0xCyberLiTech" target="_blank" rel="noopener">
     <img src="https://skillicons.dev/icons?i=linux,debian,bash,docker,nginx,git,vim,python,markdown" alt="Skills" width="440">
@@ -169,8 +182,3 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 <div align="center">
   <b>🔒 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour des tutoriels accessibles à tous. 🔒</b>
 </div>
-
-
-
-
-
