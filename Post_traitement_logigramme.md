@@ -79,9 +79,7 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 ---
 
 <div align="center">
-
 # Logigramme : Raisonnement d’une Intelligence Artificielle
-
 </div>
 
 ## Introduction
