@@ -192,7 +192,12 @@ L’IA permet à ces briques de :
 ---
 
 <a name="fondamentaux"></a>
+
+<div align="center">
+  
 # 2. Les fondamentaux de la cybersécurité
+
+</div>
 
 - **Menaces courantes** : malware, ransomware, phishing, exploits zero-day  
 - **Acteurs malveillants** : cybercriminels, hacktivistes, insiders  
@@ -201,7 +206,12 @@ L’IA permet à ces briques de :
 ---
 
 <a name="ia-cyber"></a>
+
+<div align="center">
+  
 # 3. Intelligence artificielle en cybersécurité
+
+</div>
 
 - **Automatisation** : surveillance & réponse proactive  
 - **Machine Learning** : classification de comportements suspects  
@@ -214,7 +224,12 @@ Une IA repère un comportement réseau inhabituel et enclenche automatiquement u
 ---
 
 <a name="architectures"></a>
-# 4. Architectures EDR, XDR et NDR (Résumé visuel)
+
+<div align="center">
+  
+4. Architectures EDR, XDR et NDR (Résumé visuel)
+
+</div>
 
 - **EDR** : Protection terminale (voir schéma ci-dessus)
 - **XDR** : Vision globale et automatisation (voir schéma ci-dessus)
@@ -223,7 +238,12 @@ Une IA repère un comportement réseau inhabituel et enclenche automatiquement u
 ---
 
 <a name="incident-response"></a>
+
+<div align="center">
+  
 # 5. Réponse aux incidents
+
+</div>
 
 **Étapes typiques :**  
 1. Détection  
@@ -245,7 +265,12 @@ flowchart LR
 ---
 
 <a name="schemas"></a>
+
+<div align="center">
+  
 # 6. Cas interactifs et pédagogiques
+
+</div>
 
 - **EDR** : Détection d’exécution de script PowerShell malveillant
 - **XDR** : Orchestration post-phishing multi-vector
@@ -254,7 +279,12 @@ flowchart LR
 ---
 
 <a name="ressources"></a>
+
+<div align="center">
+  
 # 7. Ressources complémentaires
+
+</div>
 
 - [ANSSI](https://www.ssi.gouv.fr)
 - [MITRE ATT&CK](https://attack.mitre.org/)
@@ -264,7 +294,12 @@ flowchart LR
 ---
 
 <a name="glossaire"></a>
+
+<div align="center">
+  
 # 8. Glossaire
+
+</div>
 
 - **EDR** : Endpoint Detection & Response  
 - **XDR** : Extended Detection & Response  
