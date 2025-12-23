@@ -106,7 +106,7 @@ Légende :
 - Les sous-branches (–) montrent des exemples de chaque section.
 - Adapte et ajoutes-y ce que tu veux approfondir.
 
-# Carte mentale : Intelligence Artificielle (IA)
+# Détail carte mentale : Intelligence Artificielle (IA)
 
 - **Intelligence Artificielle**
     - Définitions
