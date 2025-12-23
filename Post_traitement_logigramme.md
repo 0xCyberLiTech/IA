@@ -77,8 +77,10 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 </div>
 
 ---
-# Logigramme sophistiqué : Raisonnement d’une Intelligence Artificielle
 
+div align="center" style="margin-bottom: 10px;">
+# Logigramme sophistiqué : Raisonnement d’une Intelligence Artificielle
+</div>
 ## Introduction
 
 L’intelligence artificielle (IA) ne se limite pas à « penser » ou à donner des réponses. Elle s’appuie sur un enchaînement de phases bien établies, allant de la collecte de données jusqu’à la prise de décision. Chaque étape a sa fonction précise et s’appuie sur la précédente pour garantir des résultats fiables et adaptés.
