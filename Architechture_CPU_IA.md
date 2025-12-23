@@ -92,33 +92,29 @@ Comprendre leurs rôles et leurs interactions permet de mieux choisir le matéri
 ## Schéma comparatif des architectures (Mermaid)
 
 ```mermaid
-graph TD
-    A[Processeurs pour l'IA]
-    A --> B[CPU dédié IA]
-    A --> C[NPU]
-    A --> D[GPU]
+flowchart TB
+    IA[Processeurs pour l'IA]
+    IA --> CPU[CPU dédié IA]
+    IA --> NPU[NPU]
+    IA --> GPU[GPU]
     
-    B --> B1[Cores classiques]
-    B --> B2[Unités SIMD / Vectorielles]
-    B --> B3[Cache augmenté]
-    B --> B4[Sous-blocs IA intégrés (micro-NPU, DSP)]
-    B --> B5[Scheduler IA & APIs frameworks]
+    CPU --> CPU1[Cores classiques]
+    CPU --> CPU2[Instructions SIMD]
+    CPU --> CPU3[Cache IA optimisé]
+    CPU --> CPU4[Micro-accélérateurs IA]
+    CPU --> CPU5[Support frameworks IA]
     
-    C --> C1[Unités neuronales dédiées]
-    C --> C2[Tensor cores]
-    C --> C3[Optimisation infer/inference]
-    C --> C4[IA embarquée & mobile]
-    C --> C5[Low Power]
-    
-    D --> D1[Multiprocesseurs massivement parallèles]
-    D --> D2[Tensor/Compute cores]
-    D --> D3[Optimisé entraînement large]
-    D --> D4[Data centers / Clouds]
-    D --> D5[Plus grande consommation énergétique]
+    NPU --> NPU1[Unité de calcul neuronale]
+    NPU --> NPU2[Tensor cores spécialisés]
+    NPU --> NPU3[Ultra basse conso]
+    NPU --> NPU4[Optimisé pour l'inférence]
+    NPU --> NPU5[Intégré mobile/IoT/edge]
 
-    B5 --> E[Support frameworks IA : TensorFlow, PyTorch, ONNX, CoreML]
-    C4 --> F[Objets connectés, smartphones]
-    D4 --> G[Supercalculateurs IA, Big Data]
+    GPU --> GPU1[Multiprocesseurs massifs]
+    GPU --> GPU2[Tensor/Compute cores]
+    GPU --> GPU3[Optimisé pour l'entraînement]
+    GPU --> GPU4[Usage data centers]
+    GPU --> GPU5[Consommation énergétique élevée]
 ```
 
 ---
