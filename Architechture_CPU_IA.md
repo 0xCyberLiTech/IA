@@ -84,37 +84,59 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 </div>
 
-L’intelligence artificielle a révolutionné la conception des processeurs. Aujourd’hui, on distingue plusieurs architectures matérielles pensées spécifiquement pour les tâches de l’IA : les CPUs optimisés, les NPUs spécialisés et les GPUs massivement parallèles.  
+L’intelligence artificielle a révolutionné la conception des processeurs. Aujourd’hui, on distingue plusieurs architectures matérielles pensées spécifiquement pour les tâches de l’IA : les CPUs optimisés, les NPUs spécialisés et les GPUs massivement parallèles.  
 Comprendre leurs rôles et leurs interactions permet de mieux choisir le matériel adapté à vos besoins IA (inférence, entraînement, embarqué, edge, data center, etc.).
 
 ---
 
-## Schéma comparatif des architectures
+## Schéma du CPU dédié IA
 
 ```mermaid
 flowchart TB
-    IA[Processeurs pour l'IA]
-    IA --> CPU[CPU dédié IA]
-    IA --> NPU[NPU]
-    IA --> GPU[GPU]
-    
-    CPU --> CPU1[Cores classiques]
-    CPU --> CPU2[Instructions SIMD]
-    CPU --> CPU3[Cache IA optimisé]
-    CPU --> CPU4[Micro-accélérateurs IA]
-    CPU --> CPU5[Support frameworks IA]
-    
-    NPU --> NPU1[Unité de calcul neuronale]
-    NPU --> NPU2[Tensor cores spécialisés]
-    NPU --> NPU3[Ultra basse conso]
-    NPU --> NPU4[Optimisé pour l'inférence]
-    NPU --> NPU5[Intégré mobile/IoT/edge]
+    CPU[CPU dédié IA]
+    CPU --> C1[Cores classiques]
+    CPU --> C2[Unités SIMD]
+    CPU --> C3[Cache optimisé IA]
+    CPU --> C4[Micro-accélérateurs IA]
+    CPU --> C5[Support frameworks IA]
+    C5 --> F1[TensorFlow]
+    C5 --> F2[PyTorch]
+    C5 --> F3[ONNX]
+```
 
-    GPU --> GPU1[Multiprocesseurs massifs]
-    GPU --> GPU2[Tensor/Compute cores]
-    GPU --> GPU3[Optimisé pour l'entraînement]
-    GPU --> GPU4[Usage data centers]
-    GPU --> GPU5[Consommation énergétique élevée]
+---
+
+## Schéma du NPU (Neural Processing Unit)
+
+```mermaid
+flowchart TB
+    NPU[NPU]
+    NPU --> N1[Unités de calcul neuronales]
+    NPU --> N2[Tensor cores spécialisés]
+    NPU --> N3[Ultra basse consommation]
+    NPU --> N4[Optimisé pour l'inférence]
+    NPU --> N5[Intégré mobile/IoT/Edge]
+    NPU --> N6[Compatibilité frameworks IA]
+    N6 --> F1[ONNX Runtime]
+    N6 --> F2[TensorFlow Lite]
+    N6 --> F3[CoreML]
+```
+
+---
+
+## Schéma du GPU (Graphics Processing Unit) pour IA
+
+```mermaid
+flowchart TB
+    GPU[GPU]
+    GPU --> G1[Multiprocesseurs massifs]
+    GPU --> G2[Tensor/Compute cores]
+    GPU --> G3[Optimisé entraînement IA]
+    GPU --> G4[Usage data centers]
+    GPU --> G5[Consommation énergétique élevée]
+    GPU --> G6[Compatibilité frameworks IA]
+    G6 --> F1[TensorFlow]
+    G6 --> F2[PyTorch]
 ```
 
 ---
