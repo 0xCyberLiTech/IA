@@ -88,7 +88,7 @@ L’intelligence artificielle se décline en plusieurs types, selon ses capacit�
 
 ---
 
-### 1️⃣ IA faiblement spécialisée (*IA faible*, ou Narrow AI)
+### (1️) IA faiblement spécialisée (*IA faible*, ou Narrow AI)
 
 Cette IA est conçue pour réaliser une tâche précise (jouer aux échecs, recommander des vidéos, détecter des fraudes, etc.).  
 Elle n’a aucune conscience, ni compréhension globale. C’est le type d’IA le plus répandu aujourd’hui.
@@ -100,20 +100,20 @@ Elle n’a aucune conscience, ni compréhension globale. C’est le type d’IA 
 
 ---
 
-### 2️⃣ IA généraliste (*IA forte*, ou General AI)
+### (2️) IA généraliste (*IA forte*, ou General AI)
 
 L’IA forte serait capable de comprendre, d’apprendre et d’agir de façon polyvalente, comme un humain : raisonner, improviser, s’adapter à des contextes variés.  
 Cette intelligence n’existe pas encore dans la réalité, mais reste un objectif de recherche.
 
 ---
 
-### 3️⃣ IA super-intelligente
+### (3️) IA super-intelligente
 
 Un concept encore théorique, où l’IA dépasserait largement les capacités intellectuelles humaines dans tous les domaines (créativité, prise de décisions, émotions simulées, etc.). L’IA super-intelligente est un sujet de débats éthiques et philosophiques.
 
 ---
 
-## ⚙️ Types selon le fonctionnement technique
+## Types selon le fonctionnement technique
 
 - **IA symbolique** : basée sur des règles, de la logique et des symboles explicites (utilisée pour l’IA “classique”, ou “GOFAI”).
 - **Machine Learning** : apprend à partir de données (ex : classification, régression).
