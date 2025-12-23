@@ -95,8 +95,6 @@ L’intelligence artificielle (IA) ne se limite pas à « penser » ou à do
 Le schéma ci-dessous détaille ces différentes étapes : cela vous permettra de mieux comprendre comment une IA « raisonne », s’améliore et propose des solutions, que ce soit dans le cadre d’applications grand public (assistants vocaux, recommandations) ou de systèmes industriels complexes.  
 Même si certains termes peuvent paraître techniques, retenez que l’ensemble du processus vise toujours à tirer le meilleur parti des données pour fournir une aide ou une automatisation intelligente.
 
----
-
 ```
         +--------------------------------------+
         |      1. Acquisition des données      |
