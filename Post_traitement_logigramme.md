@@ -80,11 +80,6 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 # Logigramme : Raisonnement d’une Intelligence Artificielle
 
 ```
-
-
-# Logigramme sophistiqué : Raisonnement d’une Intelligence Artificielle
-
-```
         +--------------------------------------+
         |      1. Acquisition des données      |
         +--------------------------------------+
@@ -163,22 +158,6 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 9. **Sortie/action** : exploitation des résultats (décision humaine ou automatisée)  
 10. **Retour d’expérience** : monitoring, retour pour corriger ou améliorer le système
 
----
-
-```
-
-## Légende des étapes
-
-- **Données d'entrée** : images, textes, sons, données brutes…
-- **Prétraitement** : nettoyage, normalisation, vectorisation, etc.
-- **Sélection du modèle** : modèle entraîné adapté au problème (réseau de neurones, arbre de décision, etc.)
-- **Analyse & Traitement** : le modèle traite les données pour faire une prédiction ou classification
-- **Résultat brut** : sortie directe du modèle (ex : “chat” détecté)
-- **Post-traitement** : ajustements et conversion du résultat (mise en forme, seuils, actionnement, etc.)
-
----
-
-*Indique si tu veux un focus sur un type d’IA ou une étape en particulier !*
 ---
 
 <div align="center">
