@@ -78,7 +78,11 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 ---
 
-## 🤖 Introduction à l’Intelligence Artificielle (IA)
+<div align="center">
+  
+# Introduction à l’Intelligence Artificielle (IA)
+
+</div>
 
 ### **Qu’est-ce que l’Intelligence Artificielle ?**
 
