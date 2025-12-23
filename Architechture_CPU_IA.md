@@ -77,7 +77,12 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 </div>
 
 ---
+
+<div align="center">
+  
 # Architectures des processeurs dédiés à l’Intelligence Artificielle
+
+</div>
 
 L’intelligence artificielle a révolutionné la conception des processeurs. Aujourd’hui, on distingue plusieurs architectures matérielles pensées spécifiquement pour les tâches de l’IA : les CPUs optimisés, les NPUs spécialisés et les GPUs massivement parallèles.  
 Comprendre leurs rôles et leurs interactions permet de mieux choisir le matériel adapté à vos besoins IA (inférence, entraînement, embarqué, edge, data center, etc.).
