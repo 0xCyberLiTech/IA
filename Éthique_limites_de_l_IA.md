@@ -77,13 +77,18 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 </div>
 
 ---
-## ⚖️ Éthique & Limites Juridiques de l’Intelligence Artificielle
+
+<div align="center">
+  
+# Éthique & Limites Juridiques de l’Intelligence Artificielle
+
+</div>
 
 L’intelligence artificielle offre d’immenses opportunités, mais elle soulève également de nombreux défis éthiques et juridiques. Comprendre ces enjeux est essentiel pour développer et utiliser l’IA de façon responsable.
 
 ---
 
-### 🌱 Éthique de l’IA : principes essentiels
+### Éthique de l’IA : principes essentiels
 
 **1. Transparence**  
 Il doit toujours être possible de comprendre comment et pourquoi une IA prend ses décisions, surtout pour les applications sensibles (justice, santé, sécurité).
@@ -102,7 +107,7 @@ L’IA doit servir à améliorer la société, sans porter atteinte à la dignit
 
 ---
 
-### 👩‍⚖️ Limites et réglementation juridique
+### Limites et réglementation juridique
 
 **1. Protection des données personnelles**  
 En Europe, le RGPD (Règlement Général sur la Protection des Données) encadre strictement la collecte et l’utilisation des données par les IA.  
@@ -124,7 +129,7 @@ Le droit de l’IA évolue rapidement afin de répondre aux nouveaux défis :
 
 ---
 
-### 📚 Pourquoi ces limites sont-elles essentielles ?
+### Pourquoi ces limites sont-elles essentielles ?
 
 - **Garantir la confiance** : une IA transparente et encadrée crée un climat de confiance avec les utilisateurs.
 - **Préserver les droits** : l’éthique et la loi protègent chaque individu contre les abus, les erreurs ou la manipulation.
