@@ -117,7 +117,6 @@ Un concept encore théorique, où l’IA dépasserait largement les capacités i
 - **IA hybride** : combine plusieurs approches pour des systèmes plus puissants.
 
 ---
-
 > **À retenir** : La plupart des IA utilisées aujourd’hui sont “faibles”, mais elles sont déjà capables de surprendre par leur performance ! Les IA “fortes” ou “super-intelligentes” relèvent du domaine de la recherche et de la science-fiction… pour le moment.
 ---
 
