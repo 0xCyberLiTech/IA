@@ -266,7 +266,11 @@ flowchart LR
 - **NDR** : Network Detection & Response  
 - **SOC** : Security Operations Center  
 - **Incident Response** : Processus de gestion d’incident  
-- **REX** : Retour d’Expérience  
+- **REX** : Retour d’Expérience
+---
+
+> **En résumé** : L’IA doit rester un outil au service de l’humain, respectueux de la loi, éthique et transparent. Apprendre l’IA, c’est aussi apprendre à construire un futur technologique plus juste et plus sûr.
+
 ---
 
 <div align="center">
