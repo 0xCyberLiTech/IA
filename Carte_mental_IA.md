@@ -77,7 +77,12 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 </div>
 
 ---
+
+<div align="center">
+  
 # Carte mentale : Aperçu de l’Intelligence Artificielle
+
+</div>
 
 ```
                                           +------------------------------+
