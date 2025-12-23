@@ -80,24 +80,91 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 # Logigramme : Raisonnement d’une Intelligence Artificielle
 
 ```
- [Données d'entrée]
-        |
-        v
-[Prétraitement des données]
-        |
-        v
-[Sélection/Chargement du modèle d'IA]
-        |
-        v
-[Analyse & Traitement du modèle]
-        |
-        v
-[Résultat brut (prédiction, classification...)]
-        |
-        v
-[Post-traitement]
-        |
-      [Fin]
+
+
+# Logigramme sophistiqué : Raisonnement d’une Intelligence Artificielle
+
+```
+        +--------------------------------------+
+        |      1. Acquisition des données      |
+        +--------------------------------------+
+                            |
+                            v
+            +-------------------------------+
+            |    2. Prétraitement           |
+            +-------------------------------+
+                  |                |
+                  v                v
+   +--------------------+   +------------------------------+
+   |  Nettoyage données |   |  Enrichissement (feature eng)|
+   +--------------------+   +------------------------------+
+            |                       |
+            +-----------+-----------+
+                        v
+             +----------------------------+
+             |     3. Séparation          |
+             | (train / validation / test)|
+             +----------------------------+
+                        |
+                        v
+             +-----------------------------+
+             | 4. Entraînement du modèle   |
+             +-----------------------------+
+                        |
+                        v
+         +------------------------------+
+         |   5. Évaluation du modèle    |
+         +------------------------------+
+                 |               |
+           [Bon score ?]         |
+             Oui |               | Non
+                 v               v
+       +------------------+     +-----------------------+
+       |   6. Déploiement |<----|  Ajustements et       |
+       |   (production)   |     |  Ré-entraînement      |
+       +------------------+     +-----------------------+
+                 |
+                 v
+    +--------------------------------------+
+    |   7. Inférence / Prédiction sur      |
+    |   de nouvelles données               |
+    +--------------------------------------+
+                 |
+                 v
+    +--------------------------------------+
+    |            8. Post-traitement        |
+    +--------------------------------------+
+                 |
+                 v
+    +--------------------------------------+
+    |   9. Sortie / Prise de décision      |
+    +--------------------------------------+
+                 |
+                 v
+    +--------------------------------------+
+    | 10. Retour d'expérience & Amélioration|
+    +--------------------------------------+
+                 |
+                 +------------------------> (Retour itératif vers étape 4 ou 5)
+```
+
+---
+
+### Explications rapides des étapes-clefs :
+
+1. **Acquisition des données** : collecte à partir de sources diverses  
+2. **Prétraitement + enrichissement** : nettoyage, transformation, ajout de caractéristiques utiles  
+3. **Séparation** : constitution des jeux d’entraînement, validation et test  
+4. **Entraînement** : le modèle apprend à partir des données  
+5. **Évaluation** : test sur données jamais vues, calcul des scores  
+6. **Déploiement** : mise en production si les critères sont atteints, sinon reprise de l’entraînement (boucle d’amélioration)  
+7. **Inférence** : application sur de nouvelles données  
+8. **Post-traitement** : adaptation du résultat pour présentation ou action  
+9. **Sortie/action** : exploitation des résultats (décision humaine ou automatisée)  
+10. **Retour d’expérience** : monitoring, retour pour corriger ou améliorer le système
+
+---
+
 ```
 
 ## Légende des étapes
