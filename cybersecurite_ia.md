@@ -227,7 +227,7 @@ Une IA repère un comportement réseau inhabituel et enclenche automatiquement u
 
 <div align="center">
   
-4. Architectures EDR, XDR et NDR (Résumé visuel)
+# 4. Architectures EDR, XDR et NDR (Résumé visuel)
 
 </div>
 
