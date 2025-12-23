@@ -97,7 +97,7 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 | **Déploiement IA avec Docker (Debian 13)**       | Déploiement en local      | Intermédiaire    | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]() |
 | **Déploiement IA via Python natif (Debian 13)**  | Déploiement en local | Débutant         | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]() |
 | **Déploiement IA Mistral 3 (Debian 13)** | Déploiement en local        | Avancé           | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]() |
-| **L'IA et Calcul Quantique** | L'IA et Calcul Quantique        | Avancé           | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]() |
+| **L'IA et Calcul Quantique** | L'IA et Calcul Quantique        | Avancé           | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCyberLiTech/IA/blob/main/IA_calcul_quantique.md) |
 
 </div>
 
