@@ -77,7 +77,12 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 </div>
 
 ---
-## 🧩 Les différents types d’intelligence artificielle (IA)
+
+<div align="center">
+  
+# Les différents types d’intelligence artificielle (IA)
+
+</div>
 
 L’intelligence artificielle se décline en plusieurs types, selon ses capacités, ses usages et son niveau d'autonomie. Voici les principales distinctions à connaître :
 
