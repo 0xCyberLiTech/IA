@@ -163,7 +163,7 @@ Légende :
         - IA générative (textes, images, vidéos)
         - Intelligence artificielle générale (AGI)
         - Collaboration homme-machine
-
+---
 ---
 
 <div align="center">
