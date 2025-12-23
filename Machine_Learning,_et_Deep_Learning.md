@@ -84,7 +84,7 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 </div>
 
-### 🧠 Qu’est-ce que le Machine Learning ?
+### Qu’est-ce que le Machine Learning ?
 
 Le **Machine Learning** (apprentissage automatique) permet à une machine d’apprendre à partir de données pour trouver des logiques ou faire des prédictions, sans être explicitement programmée pour chaque tâche.
 
@@ -117,7 +117,7 @@ Le **Machine Learning** (apprentissage automatique) permet à une machine d’ap
 
 ---
 
-### 🤖 Qu’est-ce que le Deep Learning ?
+### Qu’est-ce que le Deep Learning ?
 
 Le **Deep Learning** (apprentissage profond) est un sous-domaine du machine learning qui utilise des **réseaux de neurones** comportant de nombreuses couches (profondeur).
 
