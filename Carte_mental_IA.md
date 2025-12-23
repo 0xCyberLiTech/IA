@@ -106,7 +106,55 @@ Légende :
 - Les sous-branches (–) montrent des exemples de chaque section.
 - Adapte et ajoutes-y ce que tu veux approfondir.
 
-*Pour un vrai schéma graphique, exporte ce plan dans XMIND, FreeMind, ou [mindmaps.app](https://app.mindmup.com/) !*
+# Carte mentale : Intelligence Artificielle (IA)
+
+- **Intelligence Artificielle**
+    - Définitions
+        - Simulation de l’intelligence humaine par des machines
+        - Automatisation de tâches cognitives
+    - Domaines d’application
+        - Santé (diagnostics, imagerie médicale)
+        - Transports (voitures autonomes, logistique)
+        - Finance (analyse prédictive, trading algorithmique)
+        - Service client (chatbots, assistants virtuels)
+        - Sécurité (détection de fraudes, cybersécurité)
+        - Industrie (automatisation, robots industriels)
+        - Éducation (tutoriels adaptatifs, corrections automatiques)
+        - Loisirs (jeux vidéo, recommandations de contenu)
+    - Techniques principales
+        - **Apprentissage automatique (Machine Learning)**
+            - Supervisé
+            - Non supervisé
+            - Apprentissage par renforcement
+        - **Réseaux de neurones artificiels**
+            - Profonds (Deep Learning)
+            - Réseaux convolutifs (images)
+            - Réseaux récurrents (suites, textes)
+        - **Algorithmes d’optimisation**
+        - **Traitement du langage naturel (NLP)**
+        - **Vision par ordinateur**
+    - Concepts clés
+        - Données d’entraînement
+        - Modèles
+        - Prédiction et classification
+        - Biais & éthique
+        - IA faible vs IA forte
+        - Explicabilité
+    - Enjeux et défis
+        - Éthique (biais, discrimination, transparence)
+        - Protection des données (RGPD, vie privée)
+        - Automatisation & emploi
+        - Contrôle, sécurité, usage militaire
+        - Impact environnemental (consommation des datacenters)
+    - Outils & langages
+        - Python, R
+        - Librairies : TensorFlow, PyTorch, Scikit-learn, Keras
+        - Plateformes cloud : AWS, Google Cloud, Azure
+    - Evolution et futur
+        - IA générative (textes, images, vidéos)
+        - Intelligence artificielle générale (AGI)
+        - Collaboration homme-machine
+
 ---
 
 <div align="center">
@@ -118,6 +166,3 @@ Légende :
 <div align="center">
   <b>🔒 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour des tutoriels accessibles à tous. 🔒</b>
 </div>
-
-
-
