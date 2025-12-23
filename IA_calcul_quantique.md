@@ -84,7 +84,11 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 </div>
 
+<div align="center">
+  
 ## Introduction
+
+</div>
 
 L’intelligence artificielle (IA) et le calcul quantique sont deux domaines technologiques en pleine évolution qui commencent à s’entrecroiser. Alors que l’IA classique repose sur des processeurs traditionnels (CPU, GPU, NPU), le calcul quantique exploite les propriétés des qubits pour résoudre certains problèmes complexes plus efficacement. L’union de ces deux univers ouvre de nouvelles perspectives pour l’optimisation, la modélisation et la résolution de tâches impossibles à traiter rapidement avec le matériel classique.
 
