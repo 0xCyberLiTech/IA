@@ -89,7 +89,7 @@ Comprendre leurs rôles et leurs interactions permet de mieux choisir le matéri
 
 ---
 
-## Schéma comparatif des architectures (Mermaid)
+## Schéma comparatif des architectures
 
 ```mermaid
 flowchart TB
@@ -119,6 +119,8 @@ flowchart TB
 
 ---
 
+---
+
 ## Explications des architectures
 
 - **CPU dédié IA**  
@@ -129,6 +131,12 @@ flowchart TB
   
 - **GPU (Graphics Processing Unit)**  
   Processeur massivement parallélisé, initialement pour le graphisme mais parfait pour l’entraînement deep learning sur gros volumes de données (data centers). Dispose de milliers de cœurs, plus adapté à la recherche ou aux serveurs IA puissants.
+
+---
+
+**À retenir :**  
+Chaque architecture a ses points forts : le CPU IA est polyvalent, le NPU est ultra-efficace pour l’embarqué, et le GPU est roi pour l’entraînement massif.  
+L’évolution matérielle IA bénéficie souvent de leur collaboration pour maximiser vitesse, efficacité, et coût énergétique.
 
 ---
 
