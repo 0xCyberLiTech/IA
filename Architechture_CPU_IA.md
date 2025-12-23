@@ -89,7 +89,7 @@ Comprendre leurs rôles et leurs interactions permet de mieux choisir le matéri
 
 ---
 
-## Schéma du CPU dédié IA
+## CPU dédié IA
 
 ```mermaid
 flowchart TB
@@ -104,11 +104,11 @@ flowchart TB
     C5 --> F3[ONNX]
 ```
 
-> **Le CPU dédié IA adapte le processeur traditionnel en intégrant des unités de calcul vectorielles (SIMD), des caches améliorés et parfois de petits accélérateurs IA. Il permet d’exécuter efficacement des tâches d’intelligence artificielle au sein des ordinateurs ou objets connectés, tout en restant polyvalent et compatible avec les grands frameworks (TensorFlow, PyTorch, ONNX).**
+**Le CPU dédié IA est un processeur central traditionnel, modifié pour intégrer des instructions SIMD (vectorisation), des caches améliorés et des micro-accélérateurs IA. Il offre une prise en charge optimale des frameworks modernes, et équipe fréquemment les appareils grand public ou IoT. Sa polyvalence lui permet d’exécuter des tâches IA variées de façon fiable.**
 
 ---
 
-## Schéma du NPU (Neural Processing Unit)
+## NPU (Neural Processing Unit)
 
 ```mermaid
 flowchart TB
@@ -123,11 +123,12 @@ flowchart TB
     N6 --> F2[TensorFlow Lite]
     N6 --> F3[CoreML]
 ```
-> **Le NPU est une puce spécialisée qui accélère le calcul des réseaux de neurones tout en optimisant la consommation énergétique. Elle est pensée pour l’inférence rapide, notamment dans les smartphones, objets connectés et systèmes embarqués. Sa compatibilité avec ONNX Runtime, TensorFlow Lite et CoreML facilite le déploiement d’IA dans des environnements mobiles et edge.**
+
+**Le NPU est une puce spécialisée pour accélérer le calcul des réseaux de neurones tout en limitant la consommation énergétique. Il est idéal pour l’inférence rapide, essentielle dans les smartphones, robots et objets embarqués, grâce à ses “tensor cores” et sa compatibilité avec ONNX Runtime, TensorFlow Lite et CoreML.**
 
 ---
 
-## Schéma du GPU (Graphics Processing Unit) pour IA
+## GPU (Graphics Processing Unit) pour IA
 
 ```mermaid
 flowchart TB
@@ -141,25 +142,13 @@ flowchart TB
     G6 --> F1[TensorFlow]
     G6 --> F2[PyTorch]
 ```
-> **Le GPU pour IA est composé de milliers de processeurs parallèles et de cœurs tensoriels, ce qui le rend idéal pour l’entraînement de modèles très volumineux. Utilisé principalement dans les data centers, il offre une forte puissance de calcul pour l’apprentissage profond, au prix d’une consommation énergétique élevée. Il reste compatible avec les principaux frameworks IA pour le développement avancé.**
 
----
-
-## Explications des architectures
-
-- **CPU dédié IA**  
-  Processeur central traditionnel, modifié pour intégrer des instructions SIMD (vectorisation), caches plus rapides, et des accélérateurs IA intégrés. Prise en charge optimale des frameworks modernes, souvent le cœur des appareils grand public et IoT.
-  
-- **NPU (Neural Processing Unit)**  
-  Puce spécialisée pour les réseaux de neurones, conçue pour exécuter l’inférence rapide et efficiente (très basse consommation). Essentielle pour les smartphones, robots, objets embarqués. Constituée de “tensor cores” pour accélérer les calculs.
-  
-- **GPU (Graphics Processing Unit)**  
-  Processeur massivement parallélisé, initialement pour le graphisme mais parfait pour l’entraînement deep learning sur gros volumes de données (data centers). Dispose de milliers de cœurs, plus adapté à la recherche ou aux serveurs IA puissants.
+**Le GPU est composé de milliers de cœurs parallèles et de cœurs tensoriels, parfait pour entraîner des modèles volumineux. Il se retrouve surtout dans les data centers : la puissance de calcul qu’il offre pour l’apprentissage profond est très élevée, mais sa consommation d’énergie l’est aussi. Il est totalement compatible avec les principaux frameworks IA comme TensorFlow et PyTorch.**
 
 ---
 
 **À retenir :**  
-Chaque architecture a ses points forts : le CPU IA est polyvalent, le NPU est ultra-efficace pour l’embarqué, et le GPU est roi pour l’entraînement massif.  
+Chaque architecture a ses atouts : le CPU IA est polyvalent, le NPU est ultra-efficace pour l’embarqué, et le GPU est roi pour l’entraînement massif.  
 L’évolution matérielle IA bénéficie souvent de leur collaboration pour maximiser vitesse, efficacité, et coût énergétique.
 
 ---
