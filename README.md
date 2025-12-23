@@ -93,7 +93,7 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 | **Carte mentale synthétique IA**                 | Vue schématique et branches majeures de l’IA| Tous publics     | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCyberLiTech/IA/blob/main/Carte_mental_IA.md) |
 | **Logigramme du raisonnement IA**                | Logigramme et post-traitement IA     | Tous publics     | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCyberLiTech/IA/blob/main/Post_traitement_logigramme.md) |
 | **Applications concrètes de l’IA**               | Cas d’utilisation : santé, finance, industrie, etc.         | Avancé           | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]() |
-| **Cybersécurité et IA**                          | Utilisation de l’IA pour renforcer la sécurité informatique | Avancé           | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCyberLiTech/IA/blob/main/cybersecurite_ia.md) |
+| **Cybersécurité et IA**                          | Renforcement de la sécurité par IA | Avancé           | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCyberLiTech/IA/blob/main/cybersecurite_ia.md) |
 | **Installation de Mistral 3 en local sous Debian 13** | Guide technique complet pour installer Mistral 3            | Avancé           | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]() |
 
 </div>
