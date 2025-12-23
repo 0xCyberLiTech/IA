@@ -95,7 +95,7 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 | **Applications concrètes de l’IA**               | Cas d’utilisation : santé, finance, industrie, etc.         | Avancé           | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]() |
 | **Cybersécurité et IA**                          | Renforcement de la sécurité par IA | Avancé           | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCyberLiTech/IA/blob/main/cybersecurite_ia.md) |
 | **Déploiement IA avec Docker (Debian 13)**       | Déploiement IA avec Docker (Debian 13)      | Intermédiaire    | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]() |
-| **Déploiement IA via Python natif (Debian 13)**  | Déploiement de modèles IA avec Python et gestion de dépendances sous Debian 13 | Débutant         | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]() |
+| **Déploiement IA via Python natif (Debian 13)**  | Déploiement IA via Python (Debian 13) | Débutant         | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]() |
 | **Installation de Mistral 3 en local sous Debian 13** | Guide technique complet pour installer Mistral 3            | Avancé           | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]() |
 
 </div>
