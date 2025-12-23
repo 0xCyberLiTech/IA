@@ -94,6 +94,8 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 </div>
 
 ---
+> **En résumé** : L’IA doit rester un outil au service de l’humain, respectueux de la loi, éthique et transparent. Apprendre l’IA, c’est aussi apprendre à construire un futur technologique plus juste et plus sûr.
+---
 
 <div align="center">
   <a href="https://github.com/0xCyberLiTech" target="_blank" rel="noopener">
