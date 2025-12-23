@@ -178,9 +178,7 @@ Même si certains termes peuvent paraître techniques, retenez que l’ensemble 
 10. **Retour d’expérience** : monitoring, retour pour corriger ou améliorer le système
 
 ---
-
-> **💡 Astuce :** Pour un schéma graphique, exporte ce processus vers un outil visuel comme draw.io, XMind, ou Lucidchart.
-
+> **En résumé** : L’IA doit rester un outil au service de l’humain, respectueux de la loi, éthique et transparent. Apprendre l’IA, c’est aussi apprendre à construire un futur technologique plus juste et plus sûr.
 ---
 
 <div align="center">
