@@ -90,6 +90,7 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 | **Post traitement logigramme**                              | Raisonnement d’une Intelligence Artificielle (IA)       | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCyberLiTech/IA/blob/main/Post_traitement_logigramme.md) |
 | **Cybersécurité et IA**                                     | Utilisation de l'IA pour la cybersécurité               | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCyberLiTech/IA/blob/main/cybersecurite_ia.md) |
 | **Installation de Mistral 3 en local sous Debian 13**       | Installation pas à pas de Mistral 3                     | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]() |
+| **Architechture CPU dédié à l'IA**       | Architechture CPU dédié à l'IA                    | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]() |
 
 </div>
 
