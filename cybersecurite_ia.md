@@ -78,7 +78,12 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 ---
 <a name="intro"></a>
-# 1. Introduction à la cybersécurité et à l’IA
+
+<div align="center">
+  
+# Introduction à la cybersécurité et à l’IA
+
+</div>
 
 La cybersécurité protège les systèmes informatiques contre les menaces numériques. L’intelligence artificielle (IA) révolutionne ce domaine en permettant l’automatisation de la détection, de l’analyse et de la réaction face aux attaques, rendant la défense plus rapide, évolutive et efficace.
 
