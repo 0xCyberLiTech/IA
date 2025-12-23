@@ -78,7 +78,11 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 ---
 
-# Intelligence Artificielle et Calcul Quantique
+<div align="center">
+  
+# Intelligence Artificielle et Calcul Quantique.
+
+</div>
 
 ## Introduction
 
