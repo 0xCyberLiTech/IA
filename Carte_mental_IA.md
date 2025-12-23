@@ -80,24 +80,24 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 # Carte mentale : Aperçu de l’Intelligence Artificielle
 
 ```
-                           +---------------------------+
-                           |   INTELLIGENCE ARTIFICIELLE |
-                           +---------------------------+
-                                      |
-    ---------------------------------------------------------------------
-   |                |                 |             |           |      |      |
-Définitions   Domaines       Techniques       Concepts     Enjeux   Outils  Futur
-              d'application    principales       clés       & défis  & langages  (Évolution)
-   |                |                 |             |           |      |      |
-   |                |                 |             |           |      |      |
-- Simulation     - Santé          - Machine    - Données    - Éthique   - Python    - IA générative
-  humaine        - Transports       Learning      d'entrai-   - Données   - R,       - AGI
-- Automatisation - Finance       - Deep          nement      - Emploi     TensorFlow, - Collaboration
-  cognitive      - Service client   Learning    - Modèles    - Sécurité   PyTorch...    homme-machine
-                 - Sécurité      - NLP         - Prédiction - Contrôle  - Cloud
-                 - Industrie     - Vision      - IA forte/  - Impact      (AWS, GCP,
-                 - Éducation     par ordinateur   faible       enviro     Azure)
-                 - Loisirs                       - Biais     nement
+                                          +------------------------------+
+                                          |   INTELLIGENCE ARTIFICIELLE  |
+                                          +------------------------------+
+                                                         |
+   -------------------------------------------------------------------------------------------------------------
+   |                |                 |                  |               |            |                        |
+Définitions      Domaines         Techniques          Concepts         Enjeux       Outils                   Futur
+   |           d'application      principales           clés           & défis    & langages              (Évolution)
+   |                |                 |                  |               |            |                        |
+   |                |                 |                  |               |            |                        |
+- Simulation     - Santé          - Machine          - Données       - Éthique    - Python             - IA générative
+  humaine        - Transports       Learning           d'entrai-     - Données    - R, TensorFlow,     - AGI
+- Automatisation - Finance        - Deep               nement        - Emploi       PyTorch...         - Collaboration
+  cognitive      - Service client   Learning         - Modèles       - Sécurité   - Cloud (AWS, GCP,     homme-machine
+                 - Sécurité       - NLP              - Prédiction    - Contrôle     Azure)
+                 - Industrie      - Vision           - IA forte/     - Impact      
+                 - Éducation        par ordinateur   faible            enviro     
+                 - Loisirs                           - Biais           nement
 
 ```
 
