@@ -121,11 +121,8 @@ Ce dépôt est conçu comme une porte d’entrée accessible et progressive à l
 - Des tutoriels détaillés pour installer, configurer et expérimenter des outils IA sur Debian 12 ou 13 ;
 - Des exemples de projets à réaliser pour consolider tes compétences ;
 
-> **Rejoins l’aventure de l’intelligence artificielle : chaque étape, chaque essai, chaque erreur, est le début d’une découverte. Ce support est fait pour t’inspirer, t’accompagner et te donner les clés pour devenir créateur dans ce domaine fascinant.**
-
 ---
-
-**Prêt à explorer ? L’IA n’attend que toi !**
+> **Rejoins l’aventure de l’intelligence artificielle : chaque étape, chaque essai, chaque erreur, est le début d’une découverte. Ce support est fait pour t’inspirer, t’accompagner et te donner les clés pour devenir créateur dans ce domaine fascinant.**
 ---
 
 <div align="center">
