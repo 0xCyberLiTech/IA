@@ -82,6 +82,7 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 
 | **Ressource**                                   | **Description**                                            | **Niveau**       | **Accès rapide**                                                                                                                              |
 |-------------------------------------------------|------------------------------------------------------------|------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+<<<<<<< HEAD
 | **Introduction à l’IA**                         | Concepts, enjeux et historique de l’IA | Débutant         | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCyberLiTech/IA/blob/main/Introduction_IA.md) |
 | **Comprendre les performances des modèles LLM**  | Guide pratique pour installer et exécuter des LLM locaux (Ollama / Open WebUI) | Intermédiaire    | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCyberLiTech/IA/blob/main/Comprendre_les_performances_des_modeles_LLM.md) |
 | **Chronologie: Installation LLM (parfaite)**    | Chronologie pas-à-pas (durées estimées, checklist) pour déployer LLM locaux sous Windows | Intermédiaire    | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCyberLiTech/IA/blob/main/Chronologie_Installation_LLM.md) |
@@ -100,6 +101,26 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 | **Déploiement IA via Python natif (Debian 13)**  | Déploiement en local | Débutant         | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]() |
 | **Déploiement IA Mistral 3 (Debian 13)** | Déploiement en local        | Avancé           | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]() |
 | **L'IA et Calcul Quantique** | L'IA et Calcul Quantique        | Avancé           | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCyberLiTech/IA/blob/main/IA_calcul_quantique.md) |
+=======
+| **Introduction à l’IA**                         | Concepts, enjeux et historique de l’IA                     | Débutant         | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCyberLiTech/IA/blob/main/Introduction_IA.md) |
+| **Types d’IA**                                  | Symbolique, connexionniste, hybride, forte/faible          | Débutant         | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCyberLiTech/IA/blob/main/Types_IA.md) |
+| **Architectures matérielles IA**                 | CPU, NPU, GPU : rôles, schéma et spécificités             | Tous publics     | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCyberLiTech/IA/blob/main/Architechture_CPU_IA.md) |
+| **Algorithmes IA fondamentaux**                  | Algorithmes réseaux, arbres, clustering                   | Débutant         | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]() |
+| **Machine Learning et Deep Learning**            | Méthodes, usages, illustrations, exemples                 | Intermédiaire    | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCyberLiTech/IA/blob/main/Machine_Learning%2C_et_Deep_Learning.md) |
+| **Outils & frameworks IA**                       | TensorFlow, PyTorch, scikit-learn, CoreML, etc.           | Tous publics     | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]() |
+| **Éthique et limites de l’IA**                   | RGPD et éthique IA                                        | Tous publics     | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCyberLiTech/IA/blob/main/%C3%89thique_limites_de_l_IA.md) |
+| **Glossaire IA**                                 | Définitions des termes et concepts clés de l’IA           | Débutant         | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]() |
+| **Carte mentale synthétique IA**                 | Vue schématique et branches majeures de l’IA              | Tous publics     | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCyberLiTech/IA/blob/main/Carte_mental_IA.md) |
+| **Logigramme du raisonnement IA**                | Logigramme et post-traitement IA                          | Tous publics     | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCyberLiTech/IA/blob/main/Post_traitement_logigramme.md) |
+| **Applications concrètes de l’IA**               | Cas d’utilisation : santé, finance, industrie, etc.       | Avancé           | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]() |
+| **Cybersécurité et IA**                          | Renforcement de la sécurité par IA                        | Avancé           | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCyberLiTech/IA/blob/main/Cybersecurite_ia.md) |
+| **Déploiement IA avec Docker (Debian 13)**       | Déploiement en local                                      | Intermédiaire    | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]() |
+| **Déploiement IA via Python natif (Debian 13)**  | Déploiement en local                                      | Débutant         | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]() |
+| **Déploiement IA Mistral 3 (Debian 13)**         | Déploiement en local                                      | Avancé           | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]() |
+| **Déploiement IA Ollama (Windows 11)**           | Déploiement en local                                      | Avancé           | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]() |
+| **Déploiement IA Ollama (Debian 13)**            | Déploiement en local                                      | Avancé           | [![Explorer](https://img.shields.io/badge/EXPLORER-red?style=for-the-badge&logo=github&logoColor=white)]() |
+| **L'IA et Calcul Quantique**                     | L'IA et Calcul Quantique                                  | Avancé           | [![Explorer](https://img.shields.io/badge/EXPLORER-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xCyberLiTech/IA/blob/main/IA_calcul_quantique.md) |
+>>>>>>> 192be91d1b99a2b82ac0205105521b80752d1257
 
 </div>
 
@@ -114,6 +135,6 @@ Le contenu est structuré, accessible et optimisé SEO pour répondre aux besoin
 </div>
 
 <div align="center">
-  <b>🔒 Un guide proposé par <a href="https://github.com/0xCyberLiTech">0xCyberLiTech</a> • Pour des tutoriels accessibles à tous. 🔒</b>
+  <b>🔒 Un guide proposé par <a href="https://0xcyberlitech.com/">0xCyberLiTech</a> • Pour des tutoriels accessibles à tous. 🔒</b>
 </div>
 
